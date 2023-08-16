@@ -16,27 +16,30 @@ As the world shifts towards greener transportation options, EVs have gained prom
 
 Our approach involves data-driven decision-making and optimization algorithms while obtaining data from readily available sources:
 
-### 1. Data Collection and Exploration: To get started, we need data! Gather diverse datasets that include:
+### 1. Data Collection and Exploration: 
+   - To get started, we need data! Gather diverse datasets that include:
    - Existing charging station locations
    - Demographic factors
    - Traffic density
    - Proximity to amenities
    - Other features influencing charging station demand and usage patterns.
 
-### 2. Data Processing and Feature Engineering: Clean and pre-process the collected data. Calculate metrics like:
-   - Proximity to existing charging stations
-   - Distance to public service spots
-   - Pobal's deprivation index
-   - Population density, etc.
+### 2. Data Processing and Feature Engineering:
+   - Clean and pre-process the collected data.
+   -  Calculate metrics like:
+      - Proximity to existing charging stations
+      - Distance to public service spots
+      - Pobal's deprivation index
+      - Population density, etc.
 
 ### 3. Objective (Weight) Function Formulation: 
-- Formulate an objective (weight) function that considers the various features. This function guides the optimization process to select the most suitable locations for new EV charging stations.
+   - Formulate an objective (weight) function that considers the various features. This function guides the optimization process to select the most suitable locations for new EV charging stations.
 
 ### 4. Optimization Algorithms:
-- We employ algorithms like Mixed-Integer Linear Programming (MILP) and ranking functions to pinpoint the optimal charging station locations.
+   - We employ algorithms like Mixed-Integer Linear Programming (MILP) and ranking functions to pinpoint the optimal charging station locations.
 
 ### 5. Results and Recommendations:
-- Based on optimization results, we identify the top spots for new EV charging stations in Dublin. This information aids policymakers, urban planners, and stakeholders in strategically deploying charging infrastructure.
+   - Based on optimization results, we identify the top spots for new EV charging stations in Dublin. This information aids policymakers, urban planners, and stakeholders in strategically deploying charging infrastructure.
 
 ## Getting Started
 
