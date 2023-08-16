@@ -16,24 +16,24 @@ As the world shifts towards greener transportation options, EVs have gained prom
 
 Our approach involves data-driven decision-making and optimization algorithms. Here's how you can contribute:
 
-    ### Data Collection and Exploration: To get started, we need data! Gather diverse datasets that include:
-        Existing charging station locations
-        Demographic factors
-        Traffic density
-        Proximity to amenities
-        Other features influencing charging station demand and usage patterns.
+ ### Data Collection and Exploration: To get started, we need data! Gather diverse datasets that include:
+   Existing charging station locations
+   Demographic factors
+   Traffic density
+   Proximity to amenities
+   Other features influencing charging station demand and usage patterns.
 
-    ### Data Processing and Feature Engineering: Clean and pre-process the collected data. Calculate metrics like:
-        Proximity to existing charging stations
-        Distance to public service spots
-        Pobal's deprivation index
-        Population density, etc.
+ ### Data Processing and Feature Engineering: Clean and pre-process the collected data. Calculate metrics like:
+   Proximity to existing charging stations
+   Distance to public service spots
+   Pobal's deprivation index
+   Population density, etc.
 
-    ### Objective Function Formulation: Formulate an objective function that considers the various features. This function guides the optimization process to select the most suitable locations for new EV charging stations.
+  ### Objective Function Formulation: Formulate an objective function that considers the various features. This function guides the optimization process to select the most suitable locations for new EV charging stations.
 
-    ### Optimization Algorithms: We employ algorithms like Mixed-Integer Linear Programming (MILP) and Particle Swarm Optimization (PSO) to pinpoint the optimal charging station locations.
+  ### Optimization Algorithms: We employ algorithms like Mixed-Integer Linear Programming (MILP) and Particle Swarm Optimization (PSO) to pinpoint the optimal charging station locations.
 
-    ### Results and Recommendations: Based on optimization results, we identify the top spots for new EV charging stations in Dublin. This information aids policymakers, urban planners, and stakeholders in strategically deploying charging infrastructure.
+  ### Results and Recommendations: Based on optimization results, we identify the top spots for new EV charging stations in Dublin. This information aids policymakers, urban planners, and stakeholders in strategically deploying charging infrastructure.
 
 ## Getting Started
 
