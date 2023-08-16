@@ -29,19 +29,22 @@ Our approach involves data-driven decision-making and optimization algorithms wh
    - Pobal's deprivation index
    - Population density, etc.
 
-### 3. Objective (Weight) Function Formulation: Formulate an objective (weight) function that considers the various features. This function guides the optimization process to select the most suitable locations for new EV charging stations.
+### 3. Objective (Weight) Function Formulation: 
+- Formulate an objective (weight) function that considers the various features. This function guides the optimization process to select the most suitable locations for new EV charging stations.
 
-### 4. Optimization Algorithms: We employ algorithms like Mixed-Integer Linear Programming (MILP) and ranking functions to pinpoint the optimal charging station locations.
+### 4. Optimization Algorithms:
+- We employ algorithms like Mixed-Integer Linear Programming (MILP) and ranking functions to pinpoint the optimal charging station locations.
 
-### 5. Results and Recommendations: Based on optimization results, we identify the top spots for new EV charging stations in Dublin. This information aids policymakers, urban planners, and stakeholders in strategically deploying charging infrastructure.
+### 5. Results and Recommendations:
+- Based on optimization results, we identify the top spots for new EV charging stations in Dublin. This information aids policymakers, urban planners, and stakeholders in strategically deploying charging infrastructure.
 
 ## Getting Started
 
 
 - Install required Python packages:
 - Prepare your data:
-        ** Create a data directory and place your CSV files inside.
-        ** Ensure your hotspot.csv contains potential charging station locations and features.csv lists nearby amenities.
+   - Create a data directory and place your CSV files inside.
+   -Ensure your hotspot.csv contains potential charging station locations and features.csv lists nearby amenities.
 
     Open the ev_charging_optimization.ipynb notebook in Jupyter Notebook or Jupyter Lab. This is where the magic happens!
 
