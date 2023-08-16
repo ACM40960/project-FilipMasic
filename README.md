@@ -16,14 +16,14 @@ As the world shifts towards greener transportation options, EVs have gained prom
 
 Our approach involves data-driven decision-making and optimization algorithms. Here's how you can contribute:
 
-### Data Collection and Exploration: To get started, we need data! Gather diverse datasets that include:
-   Existing charging station locations
-   Demographic factors
-   Traffic density
-   Proximity to amenities
-   Other features influencing charging station demand and usage patterns.
+### 1. Data Collection and Exploration: To get started, we need data! Gather diverse datasets that include:
+   - Existing charging station locations
+   - Demographic factors
+   - Traffic density
+   - Proximity to amenities
+   - Other features influencing charging station demand and usage patterns.
 
-### Data Processing and Feature Engineering: Clean and pre-process the collected data. Calculate metrics like:
+### 2. Data Processing and Feature Engineering: Clean and pre-process the collected data. Calculate metrics like:
    Proximity to existing charging stations
    Distance to public service spots
    Pobal's deprivation index
