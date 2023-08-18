@@ -6,7 +6,7 @@
 
 ## Motivation
 
-We're tackling the challenge of identifying the best spots for new EV charging stations in Dublin, contributing to the city's eco-friendly and clean mobility goals.
+We're tackling the challenge of identifying the best spots for new EV charging stations in Dublin, contributing to the city's eco-friendly and clean mobility goals due to the increased threat of global warming.
 
 ## Why It Matters
 
@@ -14,10 +14,9 @@ As the world shifts towards greener transportation options, EVs have gained prom
 
 ## How It Works
 
-Our approach involves data-driven decision-making and optimization algorithms while obtaining data from readily available sources:
+Our approach involves data-driven decision-making and ranking functions while obtaining data from readily available sources:
 
 ### 1. Data Collection and Exploration: 
-   - To get started, we need data! Gather diverse datasets that include:
    - Existing charging station locations
    - Demographic factors
    - Traffic density
@@ -26,17 +25,18 @@ Our approach involves data-driven decision-making and optimization algorithms wh
 
 ### 2. Data Processing and Feature Engineering:
    - Clean and pre-process the collected data.
-   -  Calculate metrics like:
+   -  Calculate metrics such as:
       - Proximity to existing charging stations
       - Distance to public service spots
       - Pobal's deprivation index
       - Population density, etc.
+    
+### 3. Clustering and Sphere of Influence Formulation:
+   - The potential hotspot locations are clustered together and the hotspot closest to the centroid of the cluster is chosen as the hotspot representative
+   - Sphere of influence is a theoretical radius around the hotspot that constrains what features can be used as decision variables
 
-### 3. Objective (Weight) Function Formulation: 
+### 4. Objective (Ranking) Function Formulation: 
    - Formulate an objective (weight) function that considers the various features. This function guides the optimization process to select the most suitable locations for new EV charging stations.
-
-### 4. Optimization Algorithms:
-   - We employ algorithms like Mixed-Integer Linear Programming (MILP) and ranking functions to pinpoint the optimal charging station locations.
 
 ### 5. Results and Recommendations:
    - Based on optimization results, we identify the top spots for new EV charging stations in Dublin. This information aids policymakers, urban planners, and stakeholders in strategically deploying charging infrastructure.
@@ -44,16 +44,16 @@ Our approach involves data-driven decision-making and optimization algorithms wh
 ## Getting Started
 
 
-- Install required Python packages:
+- Install required Python packages
 - Prepare your data:
-   - Create a data directory and place your CSV files inside.
+   - Create a data directory and place your web-scraped or otherwise obtained CSV files inside.
    -Ensure your hotspot.csv contains potential charging station locations and features.csv lists nearby amenities.
 
-    Open the ev_charging_optimization.ipynb notebook in Jupyter Notebook or Jupyter Lab. This is where the magic happens!
+    Open the ev_charging_optimization.ipynb notebook in Jupyter Notebook or Jupyter Lab.
 
 ## Data Format
 
-To ensure compatibility, your hotspot.csv and features.csv files should follow these formats:
+To ensure compatibility, your hotspot.csv and features.csv files should have the following variables (columns):
 
 ### hotspot.csv:
 
@@ -84,11 +84,6 @@ To ensure compatibility, your hotspot.csv and features.csv files should follow t
 
 ## Contact Us
 
-For any questions or feedback, reach out to Your Name.
+For any questions or feedback, reach out to balaji.padmanathan@ucdconnect.ie or filip.masic@ucdconnect.ie
 
-## License
-
-This project is licensed under the MIT License.
-
-We're excited to have you on board to contribute to the transformation of Dublin's transportation landscape towards a greener and more sustainable future. Let's work together to make a positive impact!
 
